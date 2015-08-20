@@ -166,7 +166,7 @@ namespace RedCell.Net
                         {
                             string urlEncoded = "";
                             foreach (var pair in data)
-                                urlEncoded = pair.Key + "=" + Uri.EscapeDataString(pair.Value) + "&";
+                                urlEncoded += pair.Key + "=" + Uri.EscapeDataString(pair.Value) + "&";
                             byte[] encoded = Encoding.UTF8.GetBytes(urlEncoded);
                             var os = req.GetRequestStream();
                             os.Write(encoded, 0, encoded.Length);

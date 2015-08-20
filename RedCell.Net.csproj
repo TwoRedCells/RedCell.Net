@@ -40,7 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="docs\RedCell.Net.chm" />
-    <None Include="RedCell.Net.cd" />
+    <None Include="docs\RedCell.Net.cd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="docs\RedCell.Net.png" />
